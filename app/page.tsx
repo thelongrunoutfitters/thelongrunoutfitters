@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { MapPin, Calendar, Users, Leaf, ShieldAlert, Search, LogIn } from "lucide-react"
+import { MapPin, Calendar, Leaf, ShieldAlert, Search, LogIn } from "lucide-react"
 import Link from 'next/link'
 
 interface Event {
@@ -222,7 +222,7 @@ export default function HomePage() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-8">About The Long Run</h2>
             <p className="max-w-2xl mx-auto mb-8">
-              We're committed to creating sustainable outdoor gear while fostering a community of environmentally conscious adventurers. Our mission is to inspire people to connect with nature and protect our planet for the long run.
+              We are committed to creating sustainable outdoor gear while fostering a community of environmentally conscious adventurers. Our mission is to inspire people to connect with nature and protect our planet for the long run.
             </p>
             <form onSubmit={handleSubmit} className="max-w-md mx-auto flex gap-2">
               <Input
