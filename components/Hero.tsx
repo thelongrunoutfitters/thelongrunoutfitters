@@ -17,10 +17,10 @@ export default function Hero() {
       </video>
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 shadow-text">
-          Gear Up for Good
+          Powered by Nature. Driven by Strength.
         </h1>
         <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto shadow-text">
-          Sustainable outdoor apparel and equipment for the conscious adventurer
+          Sustainable outdoor apparel and essentials for the conscious adventurer
         </p>
         <Button className="bg-white text-green-700 hover:bg-green-100 text-lg py-2 px-8">
           Shop Now

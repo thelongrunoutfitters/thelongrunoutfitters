@@ -17,8 +17,8 @@ export default function AboutPage() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-8 text-center">Our Mission</h2>
           <p className="text-lg mb-8 max-w-3xl mx-auto text-center">
-            At The Long Run, we're committed to creating high-quality, sustainable outdoor gear 
-            while fostering a community of environmentally conscious adventurers. Our mission is 
+            At The Long Run, we're committed to creating high-quality, sustainable outdoor clothing 
+            while creating a community of environmentally conscious adventurers. Our mission is 
             to inspire people to connect with nature, protect our planet, and make a positive 
             impact for the long run.
           </p>

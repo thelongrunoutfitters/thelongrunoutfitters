@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
@@ -16,8 +17,20 @@ export default function Navbar() {
 
   return (
     <header className="bg-stone-800 text-stone-100">
-      <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold">The Long Run</Link>
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="flex items-center">
+          <Link href="/" className="relative w-24 h-24">
+            <Image
+              src="/assets/photos/long-run-logo.png"
+              alt="Long Run Logo"
+              fill
+              className="object-contain"
+            />
+          </Link>
+          <Link href="/" className="text-2xl font-bold ml-4">
+            Long Run
+          </Link>
+        </div>
         <nav className="hidden md:flex items-center space-x-6">
           <Link href="/men" className="hover:text-green-400 transition-colors">Men</Link>
           <Link href="/women" className="hover:text-green-400 transition-colors">Women</Link>
