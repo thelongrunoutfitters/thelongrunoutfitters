@@ -1,36 +1,68 @@
+# Long Run
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# About
+
+Long Run is a sustainable outdoor gear brand dedicated to providing eco-friendly equipment and apparel for conscious adventurers. Our mission is to inspire people to connect with nature, protect our planet, and make a positive impact for the long run. We believe in fostering a community of like-minded outdoor enthusiasts who value sustainability, community, adventure, and a circular economy.
+
+# Features
+Mission:
+
+Create high-quality, sustainable outdoor gear and foster an environmentally conscious community.
+
+Values: 
+
+Sustainability, community, adventure, and circular economy.
+
+Materials: 
+
+Use of recycled polyester, organic cotton, hemp wool, and Tencel lyocell.
+
+Community: 
+
+Local events, sustainability initiatives, and exclusive offers.
+
+
+
+# Tech Frontend Framework
+
+React.js with Next.js (for routing and server-side rendering)
+Styling: 
+
+Tailwind CSS for responsive design
+Icons: 
+
+Lucide-react
+Components: 
+
+Custom components for Navbar, Button, Card, etc.
+
+Media: 
+
+
+Video integration for visual storytelling
+# Navigation Instructions
+Home Page: Contains general information and navigation links to the other sections.
+
+About Page: Detailed information about LONG RUN's mission, values, materials, and community involvement.
+
+Navbar: Located at the top, providing easy navigation across pages.
 
 ## Getting Started
 
-First, run the development server:
+To run this website on your local machine, you must have nvm, git, and Visual Studio Code (or another equivalent IDE) installed on your computer.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open the command line (type "cmd" in Windows, then press enter). Type 'nvm install latest' and press enter. This will download the latest version of Node.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Create an empty folder and open this folder in Visual Studio Code.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open the terminal in VS Code and run the following command: 'git clone https://github.com/thelongrunoutfitters/thelongrunoutfitters.github.io'
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Then enter 'cd /thelongrunoutfitters.github.io'
 
-## Learn More
+Next, run 'npm install'
 
-To learn more about Next.js, take a look at the following resources:
+Lastly, run 'npm run dev'
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result!
