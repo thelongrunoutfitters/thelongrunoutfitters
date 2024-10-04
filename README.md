@@ -80,3 +80,13 @@ Next, run 'npm install'
 Lastly, run 'npm run dev'
  
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result!
+
+### How to Verify if the App Started Successfully
+
+After the server starts you should see something like: 
+> long-run@0.1.0 dev
+> next dev
+
+ready - started server on http://localhost:3000
+
+
