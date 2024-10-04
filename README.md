@@ -58,7 +58,6 @@ Home Page: Contains general information and navigation links to About section an
 About Page: Detailed information about LONG RUN's mission, values, materials, and community involvement.
 
 ## Getting Started
-## Getting Started
  
 To run this website on your local machine, you must have nvm (https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/), git (https://git-scm.com/downloads), and Visual Studio Code (or another equivalent IDE) installed on your computer.
  
