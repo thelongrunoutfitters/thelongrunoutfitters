@@ -58,19 +58,26 @@ Home Page: Contains general information and navigation links to About section an
 About Page: Detailed information about LONG RUN's mission, values, materials, and community involvement.
 
 ## Getting Started
-
-To run this website on your local machine, you must have nvm, git, and Visual Studio Code (or another equivalent IDE) installed on your computer.
-
+## Getting Started
+ 
+To run this website on your local machine, you must have nvm (https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/), git (https://git-scm.com/downloads), and Visual Studio Code (or another equivalent IDE) installed on your computer.
+ 
 Open the command line (type "cmd" in Windows, then press enter). Type 'nvm install latest' and press enter. This will download the latest version of Node.js
-
-Create an empty folder and open this folder in Visual Studio Code.
-
-Open the terminal in VS Code and run the following command: 'git clone https://github.com/thelongrunoutfitters/thelongrunoutfitters.github.io'
-
-Then enter 'cd /thelongrunoutfitters.github.io'
-
+ 
+Run 'nvm use 22.9.0'
+ 
+Create an empty folder and open this folder in your file explorer.
+ 
+Navigate into the folder; then, type 'cmd' in the search bar. Hit enter. This should open up the command line.
+ 
+Type and run the following command: 'git clone https://github.com/thelongrunoutfitters/thelongrunoutfitters.github.io'
+ 
+Next, open VS Code, and open the folder.
+ 
+Then open the terminal in VS Code and enter 'cd thelongrunoutfitters.github.io'
+ 
 Next, run 'npm install'
-
+ 
 Lastly, run 'npm run dev'
-
+ 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result!
