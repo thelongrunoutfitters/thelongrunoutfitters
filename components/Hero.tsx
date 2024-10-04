@@ -11,7 +11,7 @@ export default function Hero() {
         className="absolute w-full h-full object-cover"
         aria-hidden="true"
       >
-        <source src="public/assets/videos/arial-forest.mp4" type="video/mp4" />
+        <source src="/assets/videos/arial-forest.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8">
