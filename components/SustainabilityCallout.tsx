@@ -22,7 +22,7 @@ export default function SustainabilityCallout() {
           better future.
         </p>
         <p className="text-lg mb-8">
-          Get the latest sustainability news from The Long Run and discover how 
+          Get the latest sustainability news from Long Run and discover how 
           we're working to protect the future of outdoor adventures together.
         </p>
         <Button className="bg-black text-white hover:bg-gray-800 text-lg py-2 px-8">

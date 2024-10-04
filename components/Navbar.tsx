@@ -4,9 +4,15 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { ShoppingCart, LogIn, User } from 'lucide-react'
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
+import LoginPage from './LoginPage'
 
 export default function Navbar() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
+
+  const handleLogin = () => {
+    setIsLoggedIn(true)
+  }
 
   return (
     <header className="bg-stone-800 text-stone-100">
@@ -35,12 +41,17 @@ export default function Navbar() {
               </Button>
             </Link>
           ) : (
-            <Link href="/login">
-              <Button className="bg-black text-white hover:bg-gray-800">
-                <LogIn className="h-4 w-4 mr-2" />
-                Log In
-              </Button>
-            </Link>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button className="bg-black text-white hover:bg-gray-800">
+                  <LogIn className="h-4 w-4 mr-2" />
+                  Log In
+                </Button>
+              </DialogTrigger>
+              <DialogContent className="sm:max-w-[425px]">
+                <LoginPage onLogin={handleLogin} />
+              </DialogContent>
+            </Dialog>
           )}
         </div>
       </div>
