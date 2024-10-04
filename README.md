@@ -7,47 +7,55 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 Long Run is a sustainable outdoor gear brand dedicated to providing eco-friendly equipment and apparel for conscious adventurers. Our mission is to inspire people to connect with nature, protect our planet, and make a positive impact for the long run. We believe in fostering a community of like-minded outdoor enthusiasts who value sustainability, community, adventure, and a circular economy.
 
 # Features
-Mission:
+Home Page:
 
-Create high-quality, sustainable outdoor gear and foster an environmentally conscious community.
+Hero Section: Displays the brand motto, "Powered by Nature. Driven by Strength," along with a call-to-action button to explore products.
 
-Values: 
+Navigation Bar: Offers easy navigation across different sections, including Men, Women, Gear, Accessories, Events, and About pages.
 
-Sustainability, community, adventure, and circular economy.
+Community Meetups:
 
+Find Local Events: Users can search for local events using their zip code.
+
+Upcoming Meetups: Lists upcoming events such as mountain hikes, cleanup walks, and nature photography, aimed at fostering community engagement.
+ 
 Materials: 
 
 Use of recycled polyester, organic cotton, hemp wool, and Tencel lyocell.
 
-Community: 
+About Section
+Mission Statement: Describes the brand's commitment to sustainability and creating a positive environmental impact.
 
-Local events, sustainability initiatives, and exclusive offers.
+Materials: Highlights the sustainable materials used in product manufacturing, such as organic cotton.
 
+Testimonials:
 
+Customer Reviews: Displays real customer testimonials to build trust and share the quality of LONG RUN products.
+
+Login and Sign Up
+
+Login Dialog: When the "Log In" button is clicked, a login popup dialog appears to make it easy for users to sign in or register without leaving the page
+
+Products Section
+
+Men and Women Adventurers: Highlights apparel and gear designed specifically for men and women, focusing on comfort and sustainability.
 
 # Tech Frontend Framework
 
-React.js with Next.js (for routing and server-side rendering)
-Styling: 
+Frontend Framework: React.js with Next.js for routing and server-side rendering.
 
-Tailwind CSS for responsive design
-Icons: 
+Styling: Tailwind CSS for responsive design.
 
-Lucide-react
-Components: 
+Icons: Lucide-react for vector icons.
 
-Custom components for Navbar, Button, Card, etc.
+Components: Custom components for Navbar, Button, Card, Dialog, etc.
 
-Media: 
+Media: Video integration for visual storytelling.
 
-
-Video integration for visual storytelling
 # Navigation Instructions
-Home Page: Contains general information and navigation links to the other sections.
+Home Page: Contains general information and navigation links to About section and Log In.
 
 About Page: Detailed information about LONG RUN's mission, values, materials, and community involvement.
-
-Navbar: Located at the top, providing easy navigation across pages.
 
 ## Getting Started
 
