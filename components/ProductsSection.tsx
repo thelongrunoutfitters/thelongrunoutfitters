@@ -3,19 +3,19 @@ import ProductCard from './ProductCard'
 export default function ProductsSection() {
   const products = [
     {
-      name: 'Eco-Friendly Jackets',
+      name: 'Men Adventurers',
       description: 'Made from recycled materials, built to last',
-      imageUrl: '/placeholder.svg?height=200&width=200'
+      imageUrl: '/assets/photos/male-hiker.jpg'
     },
     {
-      name: 'Sustainable Backpacks',
+      name: 'Women Adventurers',
       description: 'Durable and eco-conscious design',
-      imageUrl: '/placeholder.svg?height=200&width=200'
+      imageUrl: '/assets/photos/female-hiker.jpg'
     },
     {
-      name: 'Recycled Footwear',
+      name: 'Gear & Accessories',
       description: 'Comfortable and planet-friendly',
-      imageUrl: '/placeholder.svg?height=200&width=200'
+      imageUrl: '/assets/photos/backpack-product.jpg'
     }
   ]
 
@@ -23,7 +23,7 @@ export default function ProductsSection() {
     <section id="products" className="py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Our Products</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product) => (
             <ProductCard
               key={product.name}

@@ -9,6 +9,7 @@ export default function Hero() {
         muted 
         playsInline
         className="absolute w-full h-full object-cover"
+        style={{ filter: `brightness(${50}%)` }}
         aria-hidden="true"
       >
         <source src="/assets/videos/arial-forest.mp4" type="video/mp4" />

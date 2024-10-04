@@ -10,23 +10,22 @@ interface ProductCardProps {
 
 export default function ProductCard({ name, description, imageUrl }: ProductCardProps) {
   return (
-    <Card className="overflow-hidden flex flex-col">
+    <Card className="flex flex-col h-full">
       <CardHeader className="p-0">
-        <div className="aspect-square bg-stone-200 mb-4">
+        <div className="relative w-full pt-[100%]">
           <Image
             src={imageUrl}
             alt={name}
-            width={200}
-            height={200}
-            layout="responsive"
+            layout="fill"
             objectFit="cover"
+            className="rounded-t-lg"
           />
         </div>
       </CardHeader>
-      <CardContent className="p-4 flex-grow flex flex-col">
+      <CardContent className="flex-grow flex flex-col p-4">
         <CardTitle className="mb-2">{name}</CardTitle>
         <p className="text-sm text-stone-600 mb-4 flex-grow">{description}</p>
-        <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+        <Button className="w-full bg-green-600 hover:bg-green-700 text-white mt-auto">
           Shop Now
         </Button>
       </CardContent>
